@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <!-- Hériter de la page d'accueil -->
+        <template id="custom_homepage" inherit_id="website.homepage">
+            <!-- Remplacer le contenu dans le div #wrap -->
+            <xpath expr="//*[@id='wrap']" position="replace">
+                <t t-set="additional_title" t-value="'Bienvenue sur notre site'"/>
+
+                <div id="wrap" class="oe_structure oe_empty">
+                    <!-- Contenu personnalisé pour la page d'accueil -->
+                    <h1>Bienvenue sur notre page d'accueil personnalisée !</h1>
+                    <p>Cette page a été modifiée pour mieux correspondre à notre site.</p>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
