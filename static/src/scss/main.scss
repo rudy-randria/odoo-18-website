@@ -3,7 +3,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1rem;
-    color: map-get(map-get($o-color-palettes, 'airproof'), 'o-color-1');
+    color: map-get(map-get($o-color-palettes, 'odoo-18-website'), 'o-color-1');
     line-height: 1.25em;
 }
 

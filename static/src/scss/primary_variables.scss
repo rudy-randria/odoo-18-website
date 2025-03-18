@@ -1,7 +1,7 @@
 
 $o-color-palettes: map-merge($o-color-palettes,
    (
-      'airproof': (
+      'odoo-18-website': (
          'o-color-1':                    #7a7a7a,
          'o-color-2':                    #AFCA0C,
          'o-color-3':                    #f2f2f2,
@@ -16,11 +16,11 @@ $o-color-palettes: map-merge($o-color-palettes,
    )
 );
 
-$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'airproof');
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'odoo-18-website');
 $o-website-values-palettes: (
    (
-      'header-template': 'airproof',
-      'color-palettes-name':              'airproof',
+      'header-template': 'odoo-18-website',
+      'color-palettes-name':              'odoo-18-website',
    ),
 
 );

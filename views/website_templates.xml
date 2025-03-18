@@ -2,9 +2,9 @@
     <data>
         <!-- Définition du header personnalisé -->
         <record id="header" model="ir.ui.view">
-            <field name="name">Airproof Header</field>
+            <field name="name">odoo-18-website Header</field>
             <field name="type">qweb</field>
-            <field name="key">website_airproof.header</field>
+            <field name="key">odoo-18-website.header</field>
             <field name="inherit_id" ref="website.layout"/>
             <field name="mode">extension</field>
             <field name="arch" type="xml">

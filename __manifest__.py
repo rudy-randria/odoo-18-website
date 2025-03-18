@@ -1,6 +1,6 @@
 {
-    'name': 'Airproof Theme',
-    'description': 'Thème airproof',
+    'name': 'odoo-18-website',
+    'description': 'Site odoo 18',
     'category': 'Website/Theme',
     'version': '1.0',
     'author': 'Ingenosya',
@@ -13,16 +13,16 @@
     ],
     'assets': {
         'web._assets_primary_variables': [
-            'website_airproof/static/src/scss/primary_variables.scss',
+            'odoo-18-website/static/src/scss/primary_variables.scss',
 
         ],
         'web.assets_frontend': [
-            'website_airproof/static/src/scss/main.scss',
-            'website_airproof/static/src/scss/header.scss',
-            'website_airproof/static/src/js/website.js',
+            'odoo-18-website/static/src/scss/main.scss',
+            'odoo-18-website/static/src/scss/header.scss',
+            'odoo-18-website/static/src/js/website.js',
         ],
     },
-    'icon': '/website_airproof/static/description/logo.png',
+    'icon': '/odoo-18-website/static/description/logo.png',
     'installable': True,
     'application': True,
     'auto_install': False,

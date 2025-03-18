@@ -3,9 +3,9 @@
     <data>
         <template id="template_header_opt" inherit_id="website.snippet_options" name="Header Template - Option">
            <xpath expr="//we-select[@data-variable='header-template']" position="inside">
-              <we-button title="airproof"
-                 data-customize-website-views="website_airproof.header"
-                 data-customize-website-variable="'airproof'"  data-img="/website_airproof/static/src/img/wbuilder/web-ui-svgrepo-com.svg"/>
+              <we-button title="odoo-18-website"
+                 data-customize-website-views="odoo-18-website.header"
+                 data-customize-website-variable="'odoo-18-website'"  data-img="/odoo-18-website/static/src/img/wbuilder/web-ui-svgrepo-com.svg"/>
            </xpath>
         </template>
 
