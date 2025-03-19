@@ -89,7 +89,7 @@
                                                         <div class="input-group">
                                                             <input type="text" class="form-control border-0 shadow-none"
                                                                    placeholder="Rechercher..."
-                                                                   name="search" id="searchInput"/>
+                                                                   name="search" />
                                                             <div class="input-group-append">
                                                                 <button class="btn border-0 bg-transparent"
                                                                         type="submit">
