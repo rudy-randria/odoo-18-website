@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="custom-header py-3">
+                    <div class="custom-header py-3 bg-white">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-2 hidden-sm-down d-none d-md-none d-lg-flex">

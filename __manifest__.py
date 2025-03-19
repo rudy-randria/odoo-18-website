@@ -19,6 +19,7 @@
         'web.assets_frontend': [
             'odoo-18-website/static/src/scss/main.scss',
             'odoo-18-website/static/src/scss/header.scss',
+            'odoo-18-website/static/src/scss/home.scss',
             'odoo-18-website/static/src/js/website.js',
         ],
     },
